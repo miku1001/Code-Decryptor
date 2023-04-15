@@ -1,5 +1,3 @@
-#Ted Paulo A. Feranil
-
 # Import pyfiglet module
 # Create header
 # Create a dictionary for characters
