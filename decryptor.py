@@ -12,7 +12,6 @@ print("=" * 45)
 for i in tqdm(range(5), desc="Loading", leave=False):
     # Simulating some processing time
     time.sleep(1)
-
 print()
 print(("\033[34mDecrypt your text here!\033[0m").center(52," "))
 print("_" * 45)
@@ -39,3 +38,23 @@ def decryption(input_char):
 decryption(input("Enter a string to decrypt: "))
 
 # Let the user continue the process or stop
+while True:
+    print()
+    choice = input("\nDo you want to continue? Type \033[32mY\033[0m if yes or \033[31mN\033[0m if no: ")
+    if choice.upper() == "Y":
+        print()
+        decryption(input("Enter a string to decrypt: "))
+    elif choice.upper() == "N":
+        print()
+        print("Exiting program bye!..." + "\U0001F600" + "\U0001F600")
+        quit()
+    else:
+        choice = input("\nInvalid key, do you want to continue? Type \033[32mY\033[0m if yes "
+                       "or \033[31mN\033[0m if no: ")
+        if choice.upper() == "Y":
+            print()
+            decryption(input("Enter a string to decrypt: "))
+        elif choice.upper() == "N":
+            print()
+            print("Exiting program bye!..." + "\U0001F600" + "\U0001F600")
+            quit()
