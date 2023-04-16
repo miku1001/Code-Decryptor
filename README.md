@@ -3,16 +3,22 @@
 
 ***Code decryptor*** is a computer program made in python language. The main purpose it is to decode the encrypted data inputted by the user.
 
-### Tech
+### Table of Contents
+- [Tech](#tech)
+- [Run](#run)
+- [How to run in IDE](#ide)
+- [Contact](#contact)
+
+### Tech <a name="tech"></a>
 Uses:
 * [Python] - Programming Language
 
-### Run
+### Run <a name="run"></a>
      $ git clone https://github.com/miku1001/Code-Decryptor.git
      $ cd Code-Decryptor
      $ python decryptor.py
      
-## How to run in IDE
+## How to run in IDE <a name="ide"></a>
 
 To run this program, you need to:
 1. Clone the repository from Github.
@@ -30,7 +36,7 @@ To run this program, you need to:
        - if Y: the program will restart.
        - if N: the program will stop.
 
-### Contact☎️
-  For any questions or inquiries about this project, please contact:
+### Contact☎️ <a name="contact"></a>
+  For any questions or inquiries about this program, please contact:
   
   - Ted Paulo Feranil: pauloted.22@gmail.com
