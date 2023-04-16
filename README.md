@@ -26,7 +26,7 @@ To run this program, you need to:
     1. Enter your name.
     2. Enter the message that you want to decrypt.
     3. The result will be displayed on the screen.
-    4. Choose whether you want to contine or stop the program.
+    4. Choose whether you want to continue or stop the program.
        - if Y: the program will restart.
        - if N: the program will stop.
 
